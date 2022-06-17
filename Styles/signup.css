@@ -1,0 +1,169 @@
+
+
+#navbar {
+    
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    
+}
+
+#navbar>div {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+    #first_box {
+        margin-top: 12px;
+     }
+     
+     #first_box>img {
+         width:116px;
+         height: 27px;
+         margin-left: 40px;
+     }
+
+     #third_box {
+        display: flex;
+        justify-content: end;
+        margin-right: 40px;
+        
+     }
+
+     #third_box>a {
+        font-weight: 400;
+    color: #2a6dff;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: large;
+}
+     
+
+     #second_box{
+        display: flex;
+        justify-content: space-around;
+        font-family: sans-serif;
+        width: 180px;
+        margin-left: 100px;
+    }
+
+    #bigImage {
+        
+        height: 530px;
+        
+        background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#transparent {
+    width: 660px;
+    height: 382.77px;
+    position: relative;
+    background: hsla(0,0%,100%,.8);
+}
+
+#transparent>h1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+
+#transparent>h3 {
+    position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-size: 1.875rem;
+    font-family: sans-serif;
+    margin-left: 35px;
+
+}
+
+#input1 {
+    height: 44px;
+    width: 270px;
+    margin-top: 40px;
+    margin-left: 35px;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+#input2 {
+    height: 46px;
+    width: 175px;
+    margin-left: 12px;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+
+    
+
+
+#submit {
+    
+    padding: 13px 16px 12px;
+    align-items: center;
+    background-color: #3167ff;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 12px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2a6dff;
+    border-color: #2a6dff;
+    font-family: sans-serif;
+}
+
+.whitep {
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 35px;
+ }
+ 
+ .anchor {
+    font-size: 16px;
+ }
+ 
+
+   
+   
+
+    
+    
